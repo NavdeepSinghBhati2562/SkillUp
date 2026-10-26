@@ -15,7 +15,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 ---
 
 ## Arrays & Hashing (Week 1)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
