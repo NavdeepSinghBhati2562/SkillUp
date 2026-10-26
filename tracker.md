@@ -3,8 +3,8 @@
 Tick as you go. End each week with a retro in [`PROGRESS.md`](PROGRESS.md).  
 Write **brief** + **short** notes for every major topic before calling the week done.
 
-**Start date:** ____________  
-**Target end:** ____________
+**Start date:** 27 Oct 2026 (IST)  
+**Target end:** 19 Jan 2027 (IST)
 
 ---
 
@@ -13,7 +13,7 @@ Write **brief** + **short** notes for every major topic before calling the week 
 **Learn:** How the web works + HTML/CSS + JS crash start (event loop, promises, closures)  
 **Other:** Setup + 15 behavioral story candidates
 
-- [ ] Set start date in this file and `PROGRESS.md`
+- [x] Set start date in this file and `PROGRESS.md`
 - [ ] LeetCode ready; solve in **Java**
 - [ ] DSA: Arrays & Hashing (all in `dsa/README.md`) + log
 - [ ] Web: HTTP, DNS, TLS, request lifecycle ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview))

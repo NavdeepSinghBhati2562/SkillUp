@@ -1,7 +1,7 @@
 # SkillUp Context (source of truth)
 
 > **Any AI / any Cursor account:** read this file first. Update it whenever something material changes.
-> Last updated: 26 Oct 2026 (IST)
+> Last updated: 27 Oct 2026 (IST)
 
 ---
 
@@ -71,6 +71,7 @@ Become credible as a full-stack engineer in interviews:
 | 26 Oct 2026 | Clarified: want **full-stack**, not more Flutter. DSA = some medium struggle. Time = 20+ hrs/week. |
 | 26 Oct 2026 | Built first 20-week plan; pushed to GitHub `SkillUp`. |
 | 26 Oct 2026 | Requested: notes (brief + short), durable context, progress + plan-change log, mentor role, **compress to 12 weeks**. |
+| 27 Oct 2026 | Week 1 started. Locked **strict teacher** mode: disagree when wrong, pressure correct direction. |
 
 ## Preferences & working style
 
@@ -78,10 +79,11 @@ Become credible as a full-stack engineer in interviews:
 - Wants every plan change and progress written down (self-management).
 - Comfortable with crash courses / faster pacing when needed.
 - Mentor should uplift, not just dump resources.
+- **Strict teacher mode (locked 27 Oct 2026):** do not always agree; push back when wrong or drifting; pressure toward the correct direction; call out what is right and what is wrong plainly.
 
 ## Open questions / backlog for mentor
 
-- [ ] Confirm start date for Week 1.
+- [x] Confirm start date for Week 1 → **27 Oct 2026 (IST)**
 - [ ] Finalize list of ~10 target companies.
 - [ ] Confirm backend stays NestJS (vs Spring Boot for Amazon-heavy path).
 - [ ] Create LeetCode account linkage / username (optional).
@@ -89,4 +91,4 @@ Become credible as a full-stack engineer in interviews:
 
 ## Active blockers
 
-_None yet._
+_None yet. Week 1 in progress — first DSA block not yet submitted._
