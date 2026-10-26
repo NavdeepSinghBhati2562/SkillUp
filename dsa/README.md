@@ -15,7 +15,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 ---
 
 ## Arrays & Hashing (Week 1)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
@@ -39,7 +39,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
-## Stack (Week 3)
+## Stack (Week 2)
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [ ] [Min Stack](https://leetcode.com/problems/min-stack/)
 - [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
@@ -47,7 +47,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
 - [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
-## Binary Search (Week 3)
+## Binary Search (Week 2)
 - [ ] [Binary Search](https://leetcode.com/problems/binary-search/)
 - [ ] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [ ] [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
@@ -56,7 +56,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 - [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-## Linked List (Week 4)
+## Linked List (Week 3)
 - [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -67,7 +67,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/) (very common in interviews)
 - [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-## Trees: first half (Week 5)
+## Trees: first half (Week 3)
 - [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
@@ -76,7 +76,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [ ] [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
-## Trees: second half (Week 6)
+## Trees: second half (Week 4)
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
@@ -85,12 +85,12 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
-## Tries (Week 6)
+## Tries (Week 4)
 - [ ] [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [ ] [Design Add and Search Words](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
-## Heap / Priority Queue (Week 7)
+## Heap / Priority Queue (Week 4)
 - [ ] [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 - [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
@@ -98,7 +98,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
-## Backtracking (Week 8)
+## Backtracking (Week 5)
 - [ ] [Subsets](https://leetcode.com/problems/subsets/)
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum/)
 - [ ] [Permutations](https://leetcode.com/problems/permutations/)
@@ -108,7 +108,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [ ] [N-Queens](https://leetcode.com/problems/n-queens/)
 
-## Graphs: first half (Week 9)
+## Graphs: first half (Week 5)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
@@ -116,7 +116,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [ ] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 
-## Graphs: second half + Advanced (Week 10)
+## Graphs: second half + Advanced (Week 6)
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/) (union-find)
@@ -127,7 +127,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 - [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 
-## 1-D Dynamic Programming (Week 11)
+## 1-D Dynamic Programming (Week 7)
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/)
@@ -140,7 +140,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
-## 2-D Dynamic Programming (Week 12)
+## 2-D Dynamic Programming (Week 8)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
@@ -149,7 +149,7 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/)
 - [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
 
-## Greedy (Week 13)
+## Greedy (Weeks 8–9)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 - [ ] [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
@@ -158,13 +158,13 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
 - [ ] [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 
-## Intervals (Week 13)
+## Intervals (Week 9)
 - [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)
 
-## Math, Matrix & Bit Manipulation (Week 14)
+## Math, Matrix & Bit Manipulation (Week 9)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
@@ -174,9 +174,9 @@ Resources: [NeetCode roadmap videos](https://neetcode.io/roadmap) for explanatio
 - [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
-## Weeks 15–20: interview-mode practice
+## Weeks 10–12: interview-mode practice
 - 3 random mediums a day, timed (45 min for all three), with no pattern hints.
-- Company-tagged lists on LeetCode for your top targets (premium is worth it for these weeks).
+- Company-tagged lists on LeetCode for your top targets (premium is worth it for weeks 11–12).
 - Re-solve everything marked ❌ in your log.
 
 ## Java essentials to have at your fingertips

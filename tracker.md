@@ -1,159 +1,186 @@
-# Weekly Tracker
+# 12-Week Tracker
 
-Tick items as you go. At the end of each week, fill in the short retro line. It helps you
-spot weak areas early.
+Tick as you go. End each week with a retro in [`PROGRESS.md`](PROGRESS.md).  
+Write **brief** + **short** notes for every major topic before calling the week done.
 
-Start date: ____________
+**Start date:** 27 Oct 2026 (IST)  
+**Target end:** 19 Jan 2027 (IST)
 
 ---
 
-## Week 1: Foundations
-- [ ] Setup: LeetCode account, GitHub repo for this folder, list 10 target companies
-- [ ] DSA: Arrays & Hashing (all problems in `dsa/README.md`)
-- [ ] Web: how the web works. Read [MDN HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), DNS, TLS, request lifecycle
-- [ ] Web: HTML semantics + CSS box model, flexbox, grid
-- [ ] Behavioral: brainstorm 15 story candidates from your 6 years
+## Week 1 — Foundations + Arrays
+**DSA:** Arrays & Hashing  
+**Learn:** How the web works + HTML/CSS + JS crash start (event loop, promises, closures)  
+**Other:** Setup + 15 behavioral story candidates
 
-Retro: _______________________________________________
+- [x] Set start date in this file and `PROGRESS.md`
+- [ ] LeetCode ready; solve in **Java**
+- [ ] DSA: Arrays & Hashing (all in `dsa/README.md`) + log
+- [ ] Web: HTTP, DNS, TLS, request lifecycle ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview))
+- [ ] HTML semantics + CSS box model, flexbox, grid
+- [ ] JS crash: closures, `this`, event loop, promises, async/await ([javascript.info](https://javascript.info))
+- [ ] Behavioral: brainstorm 15 story candidates
+- [ ] Notes: `arrays-hashing`, `web-fundamentals` (brief + short)
 
-## Week 2: JavaScript core
-- [ ] DSA: Two Pointers + Sliding Window
-- [ ] JS: [javascript.info](https://javascript.info) Part 1. Closures, `this`, prototypes, event loop, promises, async/await
-- [ ] Build: small vanilla JS page that fetches and renders data from a public API
+---
 
-Retro: _______________________________________________
+## Week 2 — Pointers/Windows + TypeScript
+**DSA:** Two Pointers, Sliding Window, Stack, Binary Search  
+**Learn:** Finish JS essentials + TypeScript  
+**Build:** Small TS page fetching a public API
 
-## Week 3: TypeScript
-- [ ] DSA: Stack + Binary Search
-- [ ] TS: [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html). Generics, unions, narrowing, utility types
-- [ ] Build: convert the week 2 page to TypeScript
+- [ ] DSA: Two Pointers + Sliding Window + Stack + Binary Search
+- [ ] TS: Handbook — generics, unions, narrowing, utility types
+- [ ] Build: fetch-and-render page in TypeScript
+- [ ] Notes: `two-pointers`, `sliding-window`, `stack`, `binary-search`, `typescript`
 
-Retro: _______________________________________________
+---
 
-## Week 4: React fundamentals
-- [ ] DSA: Linked List
-- [ ] React: [react.dev Learn](https://react.dev/learn). Components, props, state, effects, custom hooks
-- [ ] Map Flutter concepts to React (widget → component, setState → useState, Provider → Context)
+## Week 3 — Trees start + React + Capstone kickoff
+**DSA:** Linked List + Trees (first half)  
+**Learn:** React fundamentals  
+**Capstone:** Milestone 1 (Next.js skeleton)
 
-Retro: _______________________________________________
+- [ ] DSA: Linked List + Trees (first half)
+- [ ] React: [react.dev/learn](https://react.dev/learn) — components, props, state, effects, hooks
+- [ ] Map Flutter → React (widget→component, setState→useState, Provider→Context)
+- [ ] Capstone M1: monorepo / Next.js skeleton (`projects/capstone.md`)
+- [ ] Notes: `linked-list`, `trees`, `react`
 
-## Week 5: React apps
-- [ ] DSA: Trees (first half)
-- [ ] React: routing, data fetching with TanStack Query, forms + validation (React Hook Form + Zod)
-- [ ] Capstone: milestone 1 (Next.js skeleton, see `projects/capstone.md`)
+---
 
-Retro: _______________________________________________
+## Week 4 — Heaps + Next.js + Capstone UI
+**DSA:** Trees (rest), Tries, Heap  
+**Learn:** Next.js App Router + Tailwind + data fetching  
+**Capstone:** Milestone 2 (full UI on mocked data)
 
-## Week 6: Next.js
-- [ ] DSA: Trees (second half) + Tries
-- [ ] Next.js: [nextjs.org/learn](https://nextjs.org/learn). App Router, server components, SSR vs SSG vs CSR, Tailwind
-- [ ] Capstone: milestone 2 (full UI on mocked data)
+- [ ] DSA: Trees (second half) + Tries + Heap
+- [ ] Next.js: App Router, RSC, SSR/SSG/CSR, Tailwind
+- [ ] TanStack Query + forms (RHF + Zod) — crash as needed
+- [ ] Capstone M2: boards/columns/cards UI + drag-drop (mocked)
+- [ ] Notes: `tries`, `heap`, `nextjs`
+- [ ] **Redo every ❌ from weeks 1–3**
 
-Retro: _______________________________________________
+---
 
-## Week 7: Frontend quality + review
-- [ ] DSA: Heap + **redo every problem you failed in weeks 1–6**
-- [ ] Testing: Vitest + React Testing Library
-- [ ] Web performance (Core Web Vitals), accessibility basics
-- [ ] Capstone: frontend tests
+## Week 5 — Graphs start + NestJS
+**DSA:** Backtracking + Graphs (first half)  
+**Learn:** Node event loop + NestJS + REST design  
+**Capstone:** Start API (modules, first endpoints)
 
-Retro: _______________________________________________
+- [ ] DSA: Backtracking + Graphs (first half)
+- [ ] NestJS: controllers, providers, modules, DTOs, validation
+- [ ] REST: status codes, pagination, idempotency, errors
+- [ ] Capstone: NestJS app wired; first board/card endpoints
+- [ ] Notes: `backtracking`, `graphs`, `nestjs`
 
-## Week 8: Backend fundamentals
-- [ ] DSA: Backtracking
-- [ ] Node.js: event loop, streams, modules
-- [ ] NestJS: [docs.nestjs.com](https://docs.nestjs.com) (controllers, providers, modules, DTO validation)
-- [ ] REST API design: resources, status codes, pagination, idempotency, versioning
+---
 
-Retro: _______________________________________________
+## Week 6 — Graphs + Postgres + Capstone CRUD
+**DSA:** Graphs (rest) + Advanced graphs  
+**Learn:** PostgreSQL + Prisma + indexes  
+**Capstone:** Milestone 3 (CRUD + real DB)
 
-## Week 9: Databases
-- [ ] DSA: Graphs (first half)
-- [ ] PostgreSQL: schema design, joins, normalization, transactions & isolation levels
-- [ ] Indexes: [Use The Index, Luke](https://use-the-index-luke.com) (chapters 1–3)
-- [ ] SQL practice: 15 problems from [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/)
-
-Retro: _______________________________________________
-
-## Week 10: Backend + DB in practice
 - [ ] DSA: Graphs (second half) + Advanced Graphs
-- [ ] Prisma ORM, migrations, seeding
-- [ ] Capstone: milestone 3 (CRUD API + Postgres, frontend wired to real API)
+- [ ] Postgres: schema, joins, transactions, isolation
+- [ ] Indexes: [Use The Index, Luke](https://use-the-index-luke.com) ch. 1–3
+- [ ] SQL: ~10 problems from [SQL 50](https://leetcode.com/studyplan/top-sql-50/)
+- [ ] Capstone M3: Prisma + migrations; frontend on real API
+- [ ] Notes: `postgres`, `sql-indexes`
 
-Retro: _______________________________________________
+---
 
-## Week 11: Auth & security
-- [ ] DSA: 1-D Dynamic Programming
-- [ ] Sessions vs JWT, OAuth2 / OIDC, password hashing, CORS, CSRF
-- [ ] [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [ ] Capstone: milestone 4 (auth + roles)
+## Week 7 — DP + Auth + Capstone auth
+**DSA:** 1-D Dynamic Programming  
+**Learn:** Auth, sessions/JWT, OAuth, OWASP  
+**Capstone:** Milestone 4 (auth + roles)
 
-Retro: _______________________________________________
+- [ ] DSA: 1-D DP (all listed)
+- [ ] Auth: hashing, sessions vs JWT, refresh, OAuth2/OIDC
+- [ ] Security: CORS, CSRF, XSS, SQLi, rate limits; OWASP Top 10
+- [ ] Capstone M4: signup/login + Google OAuth + RBAC
+- [ ] Notes: `dp-1d`, `auth-security`
 
-## Week 12: Caching, jobs, realtime
-- [ ] DSA: 2-D Dynamic Programming
-- [ ] Redis: caching patterns (cache-aside, TTLs, invalidation), rate limiting
-- [ ] Background jobs (BullMQ), WebSockets
-- [ ] Capstone: milestone 5 (realtime updates + cache + a background job)
+---
 
-Retro: _______________________________________________
+## Week 8 — More DP + Realtime + System design kickoff
+**DSA:** 2-D DP + Greedy start  
+**Learn:** Redis, BullMQ, WebSockets  
+**Capstone:** Milestone 5 (realtime + cache + job)  
+**Design:** Fundamentals checklist start
 
-## Week 13: Containers & CI
-- [ ] DSA: Greedy + Intervals
-- [ ] Docker + docker-compose for the whole capstone
-- [ ] GitHub Actions: lint, test, build on every PR
-- [ ] Capstone: milestone 6 (API integration tests)
+- [ ] DSA: 2-D DP + begin Greedy
+- [ ] Redis cache-aside, TTLs, invalidation; rate limiting
+- [ ] Jobs (BullMQ) + WebSockets
+- [ ] Capstone M5: live board updates + cache + notification job
+- [ ] System design: fundamentals in `system-design/README.md`
+- [ ] Notes: `dp-2d`, `redis-jobs-realtime`, `sd-fundamentals`
 
-Retro: _______________________________________________
+---
 
-## Week 14: Cloud + system design starts
-- [ ] DSA: Math & Bit Manipulation + **full review of failed problems**
-- [ ] AWS basics: EC2/ECS, RDS, S3, CloudFront, IAM
-- [ ] Capstone: milestone 7 (deployed, with logs & metrics)
-- [ ] System design: fundamentals section in `system-design/README.md`
+## Week 9 — Finish DSA patterns + Ship + Design
+**DSA:** Greedy finish + Intervals + Math/Bits + failed-problem review  
+**Learn:** Docker, CI, AWS deploy  
+**Capstone:** Milestones 6–7 (tests + deploy)  
+**Design:** Data & scaling concepts
 
-Retro: _______________________________________________
+- [ ] DSA: Greedy + Intervals + Math/Matrix/Bits
+- [ ] **Full review of all ❌ problems**
+- [ ] Docker Compose for whole stack; GitHub Actions lint/test
+- [ ] Capstone M6–M7: integration tests + AWS deploy (HTTPS, logs)
+- [ ] System design: data & scaling section
+- [ ] Notes: `greedy-intervals`, `docker-ci`, `aws-basics`
 
-## Week 15: System design depth
-- [ ] DSA: 3 mixed timed mediums/day (no pattern hints)
-- [ ] System design: data & scaling section (+ DDIA chapters 1–3)
-- [ ] Behavioral: write first 5 STAR stories
+---
 
-Retro: _______________________________________________
+## Week 10 — Interview mode + Design depth + Stories
+**DSA:** 3 timed mediums/day (no pattern hints)  
+**Design:** Practice 3 designs with template  
+**Behavioral:** Write first 5 STAR stories
 
-## Week 16: Design practice
-- [ ] DSA: mixed timed sets + 2 hards
-- [ ] Design: URL shortener, rate limiter, news feed (use the template)
-- [ ] Behavioral: finish 10 stories, map to Leadership Principles
-- [ ] First mock interview (coding)
+- [ ] Timed DSA sets daily
+- [ ] Designs: URL shortener, rate limiter, news feed (`system-design/template.md`)
+- [ ] STAR stories 1–5 in `behavioral/stories.md`
+- [ ] Capstone: architecture README draft + "scale to 1M" talking points
+- [ ] Notes: short notes for each design practiced
 
-Retro: _______________________________________________
+---
 
-## Week 17: Design practice + polish
-- [ ] DSA: company-tagged problems for top 3 target companies
-- [ ] Design: chat system, notification system, file storage (Dropbox)
-- [ ] Frontend design: autocomplete, infinite feed UI
-- [ ] Polish capstone README, record a 2-min demo, update resume + LinkedIn
+## Week 11 — Mocks + Polish
+**DSA:** Company-tagged for top 3 targets + weak spots  
+**Design:** Chat, notifications, file storage  
+**Mocks:** 2 coding + 1 design  
+**Ship:** Capstone demo video + resume/LinkedIn
 
-Retro: _______________________________________________
+- [ ] Company-tagged problems
+- [ ] Designs: chat, notification system, Dropbox-style storage
+- [ ] Frontend drills: debounce, throttle, `Promise.all`, event emitter, modal/tabs
+- [ ] 2 coding mocks + 1 system design mock
+- [ ] Capstone M8: README diagram + 2-min demo
+- [ ] Finish STAR stories 6–10; map to Leadership Principles
+- [ ] Update resume + LinkedIn around impact + capstone
 
-## Week 18: Mocks + apply (wave 1)
-- [ ] 2 coding mocks, 1 system design mock
-- [ ] Frontend interview drills: implement debounce, throttle, `Promise.all`, event emitter, a modal/tabs component
-- [ ] Apply to wave 1 (companies you care less about, as practice) + ask for referrals
+---
 
-Retro: _______________________________________________
+## Week 12 — Apply + Interview mode
+**DSA:** Daily 2 timed problems + review past designs  
+**Mocks:** 2 coding + 1 design + 1 behavioral  
+**Apply:** Wave 1 (practice) then Wave 2 (top targets)
 
-## Week 19: Mocks + apply (wave 2)
-- [ ] 2 coding mocks, 1 system design mock, 1 behavioral mock
-- [ ] Fix the top 3 weak areas found in mocks
-- [ ] Apply to wave 2 (top targets)
+- [ ] Daily timed problems + one past design re-walk
+- [ ] Remaining mocks
+- [ ] Fix top 3 weak areas found in mocks
+- [ ] Apply wave 1 + ask referrals
+- [ ] Apply wave 2 (top companies)
+- [ ] Keep interview-question log in `PROGRESS.md` or a new `interviews/log.md`
 
-Retro: _______________________________________________
+---
 
-## Week 20: Interview mode
-- [ ] Daily: 2 timed problems + review of a past design
-- [ ] Re-read your STAR stories before each loop
-- [ ] Keep a log of every interview question you get
+## Done criteria for the 12 weeks
 
-Retro: _______________________________________________
+- [ ] ~Core NeetCode-style patterns practiced; ❌ list mostly cleared
+- [ ] Capstone deployed with auth, realtime, cache, CI
+- [ ] ≥6 system designs practiced with the template
+- [ ] 8–10 STAR stories ready out loud
+- [ ] Brief + short notes for every major topic
+- [ ] At least 4–6 mocks completed

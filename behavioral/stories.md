@@ -1,7 +1,7 @@
 # Behavioral Story Bank
 
-Aim for 10 strong stories from your 6 years. Each one should be reusable for 2–3 different
-questions. Keep each to about 2 minutes when spoken.
+Aim for 10 strong stories from your 6 years. Brainstorm candidates in **Week 1**, write
+stories in **Weeks 10–11**. Each should be reusable for 2–3 questions. ~2 minutes spoken.
 
 **Format: STAR**
 - **S**ituation: 1–2 sentences of context
