@@ -91,4 +91,4 @@ Become credible as a full-stack engineer in interviews:
 
 ## Active blockers
 
-_None yet. Week 1 in progress — first DSA block not yet submitted._
+- Drift risk: submitted first DSA solution in **C++** instead of locked **Java**. Corrected; must not repeat.

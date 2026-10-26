@@ -41,6 +41,7 @@
 |---|---|---|
 | 26 Oct 2026 | Repo restructured for 12-week plan + notes/context/progress rules | Ready to start Week 1 |
 | 27 Oct 2026 | Week 1 started; strict-teacher preference locked; first 3 DSA problems assigned | Awaiting Navdeep solutions |
+| 27 Oct 2026 | Contains Duplicate submitted in C++ with O(n²) nested loops | Rejected: must use Java + HashSet; redo assigned |
 
 ---
 
